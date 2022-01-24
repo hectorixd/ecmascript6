@@ -12,6 +12,16 @@ function newFunction2(name = "hector", age = 36, country = "MX") {
     console.log(name, age, country);
 };
 
-// Llamado a la función
-newFunction2(); //si no hay argumentos se imprimen los valores por defecto
-newFunction2('Ricardo', '23', 'CO'); //se modifican los parámetros por defecto
+newFunction2(); 
+newFunction2('Ricardo', '23', 'CO'); 
+
+// TEMPLATE LITERALS
+// Anteriormente
+let hello = "Hello";
+let world = "World";
+let epicPhrase = hello + ' ' + world;
+console.log(epicPhrase);
+
+// es6
+let epicPhrase2 = `${hello} ${world}`;
+console.log(epicPhrase2);
