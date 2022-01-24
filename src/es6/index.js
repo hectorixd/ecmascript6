@@ -25,3 +25,17 @@ console.log(epicPhrase);
 // es6
 let epicPhrase2 = `${hello} ${world}`;
 console.log(epicPhrase2);
+
+// MULTILÍNEA
+// Antes
+let lorem = "I'd like you to meet my good friend George McFly. \n"
++ "The storm. Bear with me, Marty, all of your questions will be answered. \n" 
++ "Roll tape, we'll proceed. What? Great good, good, Lorraine, I had a feeling about you two.";
+
+// es6
+let lorem2 = `I'd like you to meet my good friend George McFly. 
+The storm. Bear with me, Marty, all of your questions will be answered. 
+Roll tape, we'll proceed. What? Great good, good, Lorraine, I had a feeling about you two.`;
+
+console.log(lorem);
+console.log(lorem2);
