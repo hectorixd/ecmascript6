@@ -39,3 +39,16 @@ Roll tape, we'll proceed. What? Great good, good, Lorraine, I had a feeling abou
 
 console.log(lorem);
 console.log(lorem2);
+
+// DESTRUCTURACIÓN DE ELEMENTOS
+// Antes
+let person = {
+    'name': "hector",
+    'age': 36,
+    'country': "MX"
+};
+console.log(person.name, person.age);
+
+// es6
+let { name, age, country } = person;
+console.log(name, age, country);
