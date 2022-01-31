@@ -52,3 +52,11 @@ console.log(person.name, person.age);
 // es6
 let { name, age, country } = person;
 console.log(name, age, country);
+
+// OPERADOR SPREAD
+// Antes
+let team1 = ['Hector', 'Julia', 'Ricardo'];
+let team2 = ['Valeria', 'Camila', 'Juan'];
+
+let education = ['David', ...team1, ...team2];
+console.log(education);
