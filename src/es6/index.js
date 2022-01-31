@@ -60,3 +60,14 @@ let team2 = ['Valeria', 'Camila', 'Juan'];
 
 let education = ['David', ...team1, ...team2];
 console.log(education);
+
+// PROPIEDADES DE OBJETOS
+let name = 'Hector';
+let age = '37';
+
+// Antes
+obj = { name: name, age: age }; 
+
+// es6
+obj2 = { name, age };
+console.log(obj2);
