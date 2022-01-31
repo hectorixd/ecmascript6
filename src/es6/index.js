@@ -98,5 +98,21 @@ const listOfNames4 = name => {
 // opción 4
 const square = num => num * num;
 
+// PROMESAS
+// Sirven para manejar el asincronismo
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if (false) {
+            resolve('Hola!');
+        } else {
+            reject('Ups!');
+        };
+    });
+};
+
+helloPromise()
+    .then(response => console.log(response))
+    .catch(error => console.log(error));
+
 
 
