@@ -6,3 +6,9 @@ if (numbers.includes(9)) {
 } else {
     console.log('No se encuentra');
 };
+
+// ELEVAR A LA POTENCIA
+let base = 4;
+let exponent = 3;
+let result = base ** exponent;
+console.log(result);
